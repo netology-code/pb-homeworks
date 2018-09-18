@@ -2,7 +2,7 @@
 
 ## Блок 1. Типы данных и ветвление
 
-[1.1. Базовые понятия. Переменные и числа](https://github.com/dualex23/pb-homeworks/tree/master/variables)
+[1.1. Базовые понятия. Переменные и числа](pb-homeworks/variables)
 
 1.2. Логический тип и ветвление
 
