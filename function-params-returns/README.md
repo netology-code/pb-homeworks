@@ -32,7 +32,7 @@
 
 Тестовый объект `thread`:
 ```js
-var thread = {
+let thread = {
     title: "Поделитесь книжкой",
     author: "RuBrick",
     total: 23,
@@ -134,7 +134,7 @@ var thread = {
 
 Тестовый массив `allMessages`:
 ```js
-var allMessages = [
+let allMessages = [
     {author: "zloy-zloy", text: "А у кого какой мобильный??", edited: true},
     {author: "zloy-zloy", text: "я с андроидом. Уже 3 года живет, он самым крепким оказался, пережил 2 утопления", edited: false},
     {author: "МамаЗузу", text: "Айфон в свое время успешно сдох при первом же падении на кафельную плитку.", edited: false},
