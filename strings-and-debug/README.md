@@ -36,15 +36,15 @@
 Новую версию интернет-магазина запускали в пятницу ночью и сделали много ошибок. Найдите ошибки в коде и исправьте их.
 
 ```javascript
-var user = 'Killer2001';
+let user = 'Killer2001';
 if ((user = 'admin')) {
   console.log('Привет, админ!/n Проверь нет ли жалоб от пользователей!');
 } else {
   console.log('Здравствуйте ' + user + '! У нас новые поступления халвы!');
 }
 
-var newOrders = 6;
-var errorOrders = 3;
+let newOrders = 6;
+let errorOrders = 3;
 // показываем сколько новых заказов, а сколько заказов с ошибкой
 if (newOrders > errorOrders) {
   console.log('В магазине ' + newOrders + ' новых заказов (с ошибкой: ' + errorOreders + ')');
