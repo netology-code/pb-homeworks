@@ -21,22 +21,22 @@ function printTitle() {
 }
 
 function printBottomMenu() {
-  var items = [
+  let items = [
     "Форум",
     "Настройки",
     "Профиль",
   ];
 
-  var formattedItems = [[], [], []];
-  for (var i=0; i < items.length; ++i) {
-    var item = items[i];
+  let formattedItems = [[], [], []];
+  for (let i=0; i < items.length; ++i) {
+    let item = items[i];
     formattedItems[0].push("------------");
     formattedItems[1].push("   " + item + "  ");
     formattedItems[2].push("------------");
   }
 
-  for (var i=0; i < formattedItems.length; ++i) {
-    var item = formattedItems[i];
+  for (let i=0; i < formattedItems.length; ++i) {
+    let item = formattedItems[i];
     console.log(...item);
   }
 }
@@ -84,7 +84,7 @@ Forum Netology, 1.0
 Информация об авторизованном пользователе хранится в глобальном объекте `user`. Вот пример такого объекта:
 
 ```js
-var user = {
+let user = {
     name: "Иван Иванов",
     login: "killer504",
     reputation: 97,
