@@ -43,7 +43,7 @@ let thread = {
             text: "Посоветуйте, пожалуйста, с одной стороны подробную, а с другой доступную для понимания книгу по javascript. Спасибо",
             author: {
               name: "RuBrick",
-              login: "ru_brick"
+              login: "ru_brick",
               reputation: 3,
               role: "user"
             }
@@ -109,7 +109,7 @@ let thread = {
             text: "Понял, спасибо!",
             author: {
               name: "RuBrick",
-              login: "ru_brick"
+              login: "ru_brick",
               reputation: 13,
               role: "user"
             }
@@ -138,11 +138,11 @@ let allMessages = [
     {author: "zloy-zloy", text: "А у кого какой мобильный??", edited: true},
     {author: "zloy-zloy", text: "я с андроидом. Уже 3 года живет, он самым крепким оказался, пережил 2 утопления", edited: false},
     {author: "МамаЗузу", text: "Айфон в свое время успешно сдох при первом же падении на кафельную плитку.", edited: false},
-    {author: "void", text: "У меня андроид. Особенно нравится что никаких заморочек с с айтюнс", edited: false}
+    {author: "void", text: "У меня андроид. Особенно нравится что никаких заморочек с с айтюнс", edited: false},
     {author: "mama", text: "Айфон", edited: false},
     {author: "mama", text: "Почему не отвечаешь?", edited: false},
-    {author: "void", text: "Дэвид Хэрман «Сила JavaScript. 68 способов эффективного использования JS», edited: false},
-    {author: "void", text: "«Marijn Haverbeke, Вячеслав Голованов "Выразительный javascript: Введение»", edited: false},
+    {author: "void", text: "Дэвид Хэрман «Сила JavaScript. 68 способов эффективного использования JS»", edited: false},
+    {author: "void", text: "Marijn Haverbeke, Вячеслав Голованов «Выразительный javascript: Введение»", edited: false},
     {author: "void", text: "Ленюсь", edited: false},
     {author: "void", text: "пока оценивать нечего", edited: false},
     {author: "void", text: "Не по-русски как-то получается, хоть и на русском.", edited: false},
