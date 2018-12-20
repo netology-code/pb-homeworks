@@ -16,13 +16,13 @@
 
 **Хорошо**
 ```javascript
-var vegetables;
+let vegetables;
 ```
 
 **Плохо**
 ```javascript
-var ovoschi;
-var rrfgov;
+let ovoschi;
+let rrfgov;
 ```
 
 ## 2. Точка с запятой
@@ -62,14 +62,14 @@ if (age<100) {
 
 **Хорошо**
 ```javascript
-var array = [1, 2, 3];
+let array = [1, 2, 3];
 console.log(arr[0]);
 arr.push(5);
 ```
 
 **Плохо**
 ```javascript
-var array = [1, 2, 3];
+let array = [1, 2, 3];
 console.log(arr [0]);
 arr.push (5);
 ```
@@ -102,7 +102,7 @@ function edit(name, age)
 **Хорошо**
 ```javascript
 if (age < 98) {
-  for (var i = 0, iMax = items.length; i < iMax; ++i) {
+  for (let i = 0, iMax = items.length; i < iMax; ++i) {
     // тело цикла
   }
 }
@@ -111,7 +111,7 @@ if (age < 98) {
 **Плохо**
 ```javascript
 if (age < 98) {
-for (var i = 0, iMax = items.length; i < iMax; ++i) {
+for (let i = 0, iMax = items.length; i < iMax; ++i) {
 // тело цикла
 }
 }
@@ -122,8 +122,8 @@ for (var i = 0, iMax = items.length; i < iMax; ++i) {
 
 **Хорошо**
 ```javascript
-var i;
-var iMax = items.length;
+let i;
+let iMax = items.length;
 for (i = 0; i < iMax, ++i) {
   // тело цикла
 }
@@ -135,8 +135,8 @@ if (i > 50) {
 
 **Плохо**
 ```javascript
-var i;
-var iMax = items.length;
+let i;
+let iMax = items.length;
 
 for (i = 0; i < iMax, ++i) {
   // тело цикла
