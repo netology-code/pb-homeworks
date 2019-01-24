@@ -88,7 +88,6 @@ let user = {
     name: "Иван Иванов",
     login: "killer504",
     reputation: 97,
-    total: 900,
     messages: [
       {from: "administrator", text: "Вы получили предупреждение за публикаию рекламы на форуме"},
       {from: "Петр", text: "Собираем встречу в субботу в 19:00. Придёшь?"},
