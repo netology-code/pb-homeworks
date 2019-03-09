@@ -35,25 +35,7 @@
 
 Новую версию интернет-магазина запускали в пятницу ночью и сделали много ошибок. Найдите ошибки в коде и исправьте их.
 
-```javascript
-let user = 'Killer2001';
-if ((user = 'admin')) {
-  console.log('Привет, админ!/n Проверь нет ли жалоб от пользователей!');
-} else {
-  console.log('Здравствуйте ' + user + '! У нас новые поступления халвы!');
-}
-
-let newOrders = 6;
-let errorOrders = 3;
-// показываем сколько новых заказов, а сколько заказов с ошибкой
-if (newOrders > errorOrders) {
-  console.log('В магазине ' + newOrders + ' новых заказов (с ошибкой: ' + errorOreders + ')');
-}
-
-if (newOrders === errorOrders) {
-  console.log('ВНИМАНИЕ! Что-то идет не так! Все новые заказы завершились ошибкой!');
-}
-```
+[Стартовый код на REPL.it](https://repl.it/@netology_pb/PB-13-Zadaniie-3-Ispravtie-oshibki)
 
 ---
 
