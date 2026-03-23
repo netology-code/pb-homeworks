@@ -48,8 +48,8 @@
 
 ## Инструкция по выполнению домашнего задания
 
-1. Зарегистрируйтесь на [codesandbox](https://codesandbox.io/). [Инструкция по работе с codesandbox](codesandbox.md).
-2. Для создания проекта, используйте кнопку *+New Project* в правом верхнем углу экрана.
+1. Зарегистрируйтесь на [codesandbox](https://codesandbox.io/). [Инструкция по работе с codesandbox]([codesandbox.md](https://github.com/netology-code/pb-homeworks/blob/master/codesandbox.md).
+3. Для создания проекта, используйте кнопку *+New Project* в правом верхнем углу экрана.
 4. В модальном окне выберите вкладку *Vanilla* проект *node.new*
 5. Код пишите в открывшемся редакторе проекта.
 6. Для запуска проекта, в терминале (который отображается снизу) введите команду `node index.js`.
